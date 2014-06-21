@@ -30,7 +30,7 @@
     <meta property="og:email" content="marton.tasnadi@gmail.com">
   </head>
   <body <?php body_class(); ?>>
-    <header>
+    <header id="blog-header">
       
     </header>
     <div id="wrapper">
