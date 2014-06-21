@@ -27,6 +27,7 @@
     <meta property="og:title" content="kistasiblog">
     <meta property="og:type" content="blog">
     <meta property="og:url" content="http://team4world.hu/">
+    <meta property="og:email" content="marton.tasnadi@gmail.com">
   </head>
   <body <?php body_class(); ?>>
     <header>
