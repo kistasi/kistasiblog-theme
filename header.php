@@ -7,8 +7,11 @@
 
     <title><?php if (is_front_page()) { bloginfo('name'); } else { wp_title(''); } ?></title>
 
-    <!-- CSS -->
+    <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/design.css">
