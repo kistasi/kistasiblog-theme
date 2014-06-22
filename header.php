@@ -38,4 +38,4 @@
     <header id="blog-header">
       
     </header>
-    <div id="wrapper">
+    <main id="wrapper">
