@@ -41,7 +41,6 @@
     </header>
     <nav id="menu">
       <ul>
-        <li><a href="<?php bloginfo('url'); ?>"><?php _e('Home', 'elegant-grunge') ?></a></li>
         <?php wp_list_pages('title_li=&depth=1'); ?>
       </ul>
     </nav>
