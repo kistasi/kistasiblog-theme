@@ -9,7 +9,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/design.css">
     
     <!-- JavaScript -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
