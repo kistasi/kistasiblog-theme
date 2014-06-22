@@ -1,7 +1,5 @@
 <?php
-// jQuery
+register_nav_menu( 'primary', 'Primary Menu' );
 
-
-// wp_head();
 
 ?>
