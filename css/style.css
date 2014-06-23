@@ -88,6 +88,15 @@ article.post div.post-content {
 	padding: 20px;
 }
 
+article.post footer.post-footer {
+	height: 30px;
+}
+
+article.post footer.post-footer span.postmetadata {
+	float: right;
+	padding-right: 5px;
+}
+
 /* Footer */
 footer#blog-footer {
 	color: #f7f7f7;
