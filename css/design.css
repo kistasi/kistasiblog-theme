@@ -110,3 +110,19 @@ footer#blog-footer {
 	padding: 30px;
 	clear: both;
 }
+
+/* Links */
+a:link {
+	color: #2b67af;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2b67af;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #2b67af;
+	text-decoration: none;
+}
