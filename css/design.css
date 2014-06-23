@@ -1,10 +1,53 @@
 html, body {
 	font-family: 'Roboto', sans-serif;
+	color: #252525;
+	background: #f7f7f7;
 }
 
 main#wrapper {
-	width: 960px;
+	width: 1300px;
 	max-width: 100%;
 	min-width: 180px;
 	margin: 0 auto;
+}
+
+aside#sidebar {
+	float: right;
+	width: 340px;
+	background: yellow;
+}
+
+div#content {
+	float: left;
+	width: 960px;
+	background: red;
+}
+
+header#blog-header {
+	background: #ddd;
+	height: 150px;
+	text-align: center;
+}
+
+header#blog-header a {
+	text-decoration: none;
+}
+
+h1#blog-title {
+	margin: 0;
+	padding: 0;
+}
+
+article.post {
+	background: green;
+}
+
+footer#blog-footer {
+	height: 50px;
+	color: #f7f7f7;
+	background: #333333;
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+
 }
