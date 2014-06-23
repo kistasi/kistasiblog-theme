@@ -1,5 +1,5 @@
 <aside id="sidebar">
-  <ul>
+  <ul id="sidebar-inner">
     <?php dynamic_sidebar(); ?>
   </ul>
 </aside>

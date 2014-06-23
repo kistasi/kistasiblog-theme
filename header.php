@@ -39,9 +39,11 @@
       <h1 id="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       <span id="blog-tagline"><?php bloginfo('description'); ?></span>
     </header>
-    <nav id="menu">
-      <ul>
-        <?php wp_list_pages('title_li=&depth=1'); ?>
-      </ul>
-    </nav>
+    <div id="menu-wrapper">
+      <nav id="menu">
+        <ul>
+          <?php wp_list_pages('title_li=&depth=1'); ?>
+        </ul>
+      </nav>
+    </div>
     <main id="wrapper">

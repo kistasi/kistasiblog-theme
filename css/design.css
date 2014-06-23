@@ -17,7 +17,7 @@ aside#sidebar {
 	width: 340px;
 }
 
-aside#sidebar ul {
+aside#sidebar ul#sidebar-inner {
 	list-style: none;
 }
 
@@ -48,36 +48,9 @@ h1#blog-title {
 }
 
 /* Menu */
-nav#menu {
-	background: #ff9925;
-	height: 40px;
-	margin-bottom: 30px;
-}
 
-nav#menu ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
 
-nav#menu ul li {
-	float: left;
-	text-align: center;
-	height: 30px;
-	width: 100px;
-	background: red;
-	margin-right: 10px;
-}
 
-nav#menu ul li:last-child {
-	margin: 0;
-}
-
-nav#menu ul li a {
-	display: block;
-	text-decoration: none;
-	color: #f7f7f7;
-}
 
 /* Post */
 article.post {
