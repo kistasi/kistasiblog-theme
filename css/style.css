@@ -128,9 +128,9 @@ a:visited {
 		display: none;
 	}
 
-	main#wrapper {
-		display: block;
-		margin: 0 auto;
+	article.post {
+		border: none;
+		border-bottom: 3px solid #e74c3c;
 	}
 }
 
