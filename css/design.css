@@ -77,13 +77,25 @@ nav#menu ul li a {
 }
 
 article.post {
-	border: 2px solid red;
+	border: 3px solid #e74c3c;
 	margin-bottom: 20px;
-	padding: 20px;
 }
 
-article.post:last-child {
-	margin-top: 100px;
+article.post header.post-header {
+	text-align: center;
+}
+
+article.post header.post-header h3 {
+	font-size: 30px;
+}
+
+article.post header.post-header h3 a {
+	text-decoration: none;
+	color: #e74c3c;
+}
+
+article.post div.post-content {
+	padding: 20px;
 }
 
 footer#blog-footer {
