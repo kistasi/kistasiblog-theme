@@ -12,10 +12,9 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/design.css">
-    
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/style.css">
+
     <!-- JavaScript -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>
