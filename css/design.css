@@ -1,3 +1,4 @@
+/* Layout */
 html, body {
 	font-family: 'Roboto', sans-serif;
 	color: #252525;
@@ -27,6 +28,7 @@ div#content {
 	min-width: 160px; 
 }
 
+/* Header */
 header#blog-header {
 	background: #e74c3c;
 	height: 70px;
@@ -45,6 +47,7 @@ h1#blog-title {
 	padding: 0;
 }
 
+/* Menu */
 nav#menu {
 	background: #ff9925;
 	height: 40px;
@@ -76,6 +79,7 @@ nav#menu ul li a {
 	color: #f7f7f7;
 }
 
+/* Post */
 article.post {
 	border: 3px solid #e74c3c;
 	margin-bottom: 20px;
@@ -98,6 +102,7 @@ article.post div.post-content {
 	padding: 20px;
 }
 
+/* Footer */
 footer#blog-footer {
 	color: #f7f7f7;
 	background: #333333;
