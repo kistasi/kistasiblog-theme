@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 
-<h2 class="archive-title"><?php printf( __( 'Category Archives: %s', 'kistasiblog-theme' ), single_cat_title( '', false ) ); ?></h2>
+<h2 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'kistasiblog-theme' ), single_tag_title( '', false ) ); ?></h2>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php if ( in_category('3') ): ?>
