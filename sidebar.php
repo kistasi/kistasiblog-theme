@@ -1,4 +1,6 @@
 <aside id="sidebar">
-	<?php dynamic_sidebar(); ?>
+  <ul>
+    <?php dynamic_sidebar(); ?>
+  </ul>
 </aside>
 <div id="content">

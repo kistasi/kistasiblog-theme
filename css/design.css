@@ -14,7 +14,10 @@ main#wrapper {
 aside#sidebar {
 	float: right;
 	width: 340px;
-	background: yellow;
+}
+
+aside#sidebar ul {
+	list-style: none;
 }
 
 div#content {
@@ -22,7 +25,6 @@ div#content {
 	width: 960px;
 	max-width: 100%;
 	min-width: 160px; 
-	background: red;
 }
 
 header#blog-header {
@@ -53,7 +55,6 @@ nav#menu ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
 }
 
 nav#menu ul li {
@@ -63,8 +64,18 @@ nav#menu ul li {
 	width: 100px;
 }
 
+nav#menu ul li a {
+	display: block;
+	text-decoration: underline;
+}
+
 article.post {
-	background: green;
+	border: 2px solid red;
+	margin-bottom: 20px;
+}
+
+article.post:last-child {
+	margin-top: 100px;
 }
 
 footer#blog-footer {
@@ -72,7 +83,5 @@ footer#blog-footer {
 	background: #333333;
 	text-align: center;
 	padding: 30px;
-	margin-top: 100px;
 	clear: both;
-
 }
