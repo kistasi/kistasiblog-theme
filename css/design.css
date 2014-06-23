@@ -20,16 +20,21 @@ aside#sidebar {
 div#content {
 	float: left;
 	width: 960px;
+	max-width: 100%;
+	min-width: 160px; 
 	background: red;
 }
 
 header#blog-header {
-	background: #ddd;
-	height: 150px;
+	background: #e74c3c;
+	height: 70px;
 	text-align: center;
+	margin: 0;
+	padding: 20px;
 }
 
 header#blog-header a {
+	color: #f7f7f7;
 	text-decoration: none;
 }
 
@@ -38,16 +43,36 @@ h1#blog-title {
 	padding: 0;
 }
 
+nav#menu {
+	background: #ff9925;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+nav#menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+nav#menu ul li {
+	float: left;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+}
+
 article.post {
 	background: green;
 }
 
 footer#blog-footer {
-	height: 50px;
 	color: #f7f7f7;
 	background: #333333;
 	text-align: center;
-	padding-top: 20px;
+	padding: 30px;
+	margin-top: 100px;
 	clear: both;
 
 }
