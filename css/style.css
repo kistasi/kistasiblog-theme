@@ -121,3 +121,20 @@ a:visited {
 	color: #2b67af;
 	text-decoration: none;
 }
+
+/* Responsive */
+@media all and (max-width: 1300px) {
+	aside#sidebar {
+		display: none;
+	}
+
+	main#wrapper {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+/*  */
+body.page article.post, body.single-post article.post {
+	border: none;
+}
