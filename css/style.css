@@ -97,6 +97,17 @@ article.post footer.post-footer span.postmetadata {
 	padding-right: 5px;
 }
 
+/* Pager */
+span#pager-older {
+	float: left;
+	margin-bottom: 30px;
+}
+
+span#pager-newer {
+	float: right;
+	margin-bottom: 30px;
+}
+
 /* Footer */
 footer#blog-footer {
 	color: #f7f7f7;

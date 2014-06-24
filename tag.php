@@ -21,7 +21,9 @@
   </footer>
 </article>
 
-   <?php endwhile; else: ?>
+<?php endwhile; else: ?>
       <p>Sorry, no posts matched your criteria.</p>
-   <?php endif; ?>
+<?php endif; ?>
+<span id="pager-older"><?php next_posts_link( 'Older posts' ); ?></span>
+<span id="pager-newer"><?php previous_posts_link( 'Newer posts' ); ?></span>
 <?php get_footer(); ?>
