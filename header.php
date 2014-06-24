@@ -13,7 +13,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
     <!-- JavaScript -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
