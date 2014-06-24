@@ -1,0 +1,156 @@
+/*
+Theme Name: kistasiblog-theme
+Theme URI: https://github.com/kistasi/kistasiblog-theme
+Author Name: Marton Tasnadi (kistasi)
+Author URI: http://team4world.hu/
+Author Twitter: @team4world
+Author GitHub: https://github.com/kistasi
+Description: This is the custom theme for my blog.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Layout */
+html, body {
+	font-family: 'Roboto', sans-serif;
+	color: #252525;
+	background: #f7f7f7;
+}
+
+main#wrapper {
+	width: 1300px;
+	max-width: 100%;
+	min-width: 180px;
+	margin: 0 auto;
+}
+
+aside#sidebar {
+	float: right;
+	width: 340px;
+}
+
+aside#sidebar ul#sidebar-inner {
+	list-style: none;
+}
+
+aside#sidebar ul#sidebar-inner ul {
+	list-style-type: circle;
+}
+
+div#content {
+	float: left;
+	width: 960px;
+	max-width: 100%;
+	min-width: 160px; 
+}
+
+/* Header */
+header#blog-header {
+	background: #e74c3c;
+	height: 70px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 50px !important;
+	padding: 20px;
+}
+
+header#blog-header a {
+	color: #f7f7f7;
+	text-decoration: none;
+}
+
+h1#blog-title {
+	margin: 0;
+	padding: 0;
+}
+
+/* Menu */
+
+
+
+
+/* Post */
+article.post {
+	border: 3px solid #e74c3c;
+	margin-bottom: 20px;
+}
+
+article.post header.post-header {
+	text-align: center;
+}
+
+article.post header.post-header h3 {
+	font-size: 30px;
+}
+
+article.post header.post-header h3 a {
+	text-decoration: none;
+	color: #e74c3c;
+}
+
+article.post div.post-content {
+	padding: 20px;
+}
+
+article.post footer.post-footer {
+	height: 30px;
+}
+
+article.post footer.post-footer span.postmetadata {
+	float: right;
+	padding-right: 5px;
+}
+
+/* Pager */
+span#pager-older {
+	float: left;
+	margin-bottom: 30px;
+}
+
+span#pager-newer {
+	float: right;
+	margin-bottom: 30px;
+}
+
+/* Footer */
+footer#blog-footer {
+	color: #f7f7f7;
+	background: #333333;
+	text-align: center;
+	padding: 30px;
+	clear: both;
+}
+
+/* Links */
+a:link {
+	color: #2b67af;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2b67af;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #2b67af;
+	text-decoration: none;
+}
+
+/* Responsive */
+@media all and (max-width: 1300px) {
+	aside#sidebar {
+		display: none;
+	}
+
+	article.post {
+		border: none;
+		border-bottom: 3px solid #e74c3c;
+	}
+}
+
+/*  */
+body.page article.post, body.single-post article.post {
+	border: none;
+}
