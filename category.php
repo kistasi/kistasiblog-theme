@@ -18,6 +18,7 @@
   </div>
   <footer class="post-footer">
     <span class="post-category">Kategória: <?php the_category(', '); ?></span>
+    <span class="post-tags"><?php the_tags(); ?></span>
   </footer>
 </article>
 

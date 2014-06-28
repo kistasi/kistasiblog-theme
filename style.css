@@ -564,6 +564,12 @@ article.post footer.post-footer span.post-category {
   float: right;
 }
 
+/* line 36, sass/_posts.scss */
+article.post footer.post-footer span.post-tags {
+  padding-left: 5px;
+  float: left;
+}
+
 /* line 1, sass/_pager.scss */
 span#pager-older {
   margin-bottom: 30px;
