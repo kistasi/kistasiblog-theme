@@ -590,3 +590,13 @@ footer#blog-footer {
 body.page article.post, body.single-post article.post {
   border: none;
 }
+
+/* line 5, sass/_single.scss */
+body.page article.post header.post-header small.date-author {
+  display: none;
+}
+
+/* line 9, sass/_single.scss */
+body.page article.post footer.post-footer span.post-meta-data {
+  display: none;
+}
