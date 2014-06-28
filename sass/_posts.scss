@@ -16,6 +16,10 @@ article.post header.post-header h3 a {
 	text-decoration: none;
 }
 
+article.post header.post-header h3 a:hover {
+	text-decoration: underline;
+}
+
 article.post div.post-content {
 	padding: 20px;
 }
@@ -24,7 +28,7 @@ article.post footer.post-footer {
 	height: 30px;
 }
 
-article.post footer.post-footer span.post-meta-data {
+article.post footer.post-footer span.post-category {
 	padding-right: 5px;
 	float: right;
 }

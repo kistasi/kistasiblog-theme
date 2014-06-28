@@ -1,7 +1,19 @@
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 
-<h2 class="tag-title"><?php printf( __( 'Címke: %s', 'kistasiblog-theme' ), single_tag_title( '', false ) ); ?></h2>
+<h2 class="archive-title">
+<?php
+  if ( is_day() ) :
+    printf( __( 'Archívum: %s', 'kistasiblog-theme' ), get_the_date() );
+  elseif ( is_month() ) :
+    printf( __( 'Archívum: %s', 'kistasiblog-theme' ), get_the_date( _x( 'Y. m', 'monthly archives date format', 'kistasiblog-theme' ) ) );
+  elseif ( is_year() ) :
+    printf( __( 'Archívum: %s', 'kistasiblog-theme' ), get_the_date( _x( 'Y', 'yearly archives date format', 'kistasiblog-theme' ) ) );
+  else :
+    _e( 'Archívum:', 'kistasiblog-theme' );
+  endif;
+?>
+</h2>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php if ( in_category('3') ): ?>
@@ -17,12 +29,12 @@
     <?php the_content(); ?>
   </div>
   <footer class="post-footer">
-    <span class="post-meta-data">Kategóra: <?php the_category(', '); ?></span>
+    <span class="post-category">Kategóra: <?php the_category(', '); ?></span>
   </footer>
 </article>
 
 <?php endwhile; else: ?>
-  <p>Bocsi, egy bejegyzés sem használja ezt a cimkét.</p>
+  <p>Bocsi, egy bejegyzés sem található ebben az archívumban.</p>
 <?php endif; ?>
 <span id="pager-older"><?php next_posts_link( 'Régebbi bejegyzések' ); ?></span>
 <span id="pager-newer"><?php previous_posts_link( 'Újabb bejegyzések' ); ?></span>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu-HU" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="hu-HU">
   <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge">-->
@@ -15,9 +15,9 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
     <!-- JavaScript -->
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/jquery.js"></script>
+    <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>-->
+    <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>-->
+    <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/jquery.js"></script> -->
 
     <!-- wp_head(); -->
     <?php wp_head(); ?>

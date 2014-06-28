@@ -487,6 +487,11 @@ aside#sidebar {
 }
 
 /* line 20, sass/_layout.scss */
+aside#sidebar label.screen-reader-text {
+  display: none;
+}
+
+/* line 24, sass/_layout.scss */
 div#content {
   width: 940px;
   max-width: 100%;
@@ -539,17 +544,22 @@ article.post header.post-header h3 a {
 }
 
 /* line 19, sass/_posts.scss */
+article.post header.post-header h3 a:hover {
+  text-decoration: underline;
+}
+
+/* line 23, sass/_posts.scss */
 article.post div.post-content {
   padding: 20px;
 }
 
-/* line 23, sass/_posts.scss */
+/* line 27, sass/_posts.scss */
 article.post footer.post-footer {
   height: 30px;
 }
 
-/* line 27, sass/_posts.scss */
-article.post footer.post-footer span.post-meta-data {
+/* line 31, sass/_posts.scss */
+article.post footer.post-footer span.post-category {
   padding-right: 5px;
   float: right;
 }
@@ -598,6 +608,6 @@ body.page article.post header.post-header small.date-author {
 }
 
 /* line 9, sass/_single.scss */
-body.page article.post footer.post-footer span.post-meta-data {
+body.page article.post footer.post-footer span.post-category {
   display: none;
 }

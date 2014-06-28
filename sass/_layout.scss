@@ -17,6 +17,10 @@ aside#sidebar {
 	float: right;
 }
 
+aside#sidebar label.screen-reader-text {
+	display: none;
+}
+
 div#content {
 	width: 940px;
 	max-width: 100%;
