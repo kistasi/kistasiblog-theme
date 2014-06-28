@@ -500,16 +500,17 @@ header#blog-header {
   text-align: center;
   height: 70px;
   margin: 0;
+  margin-bottom: 20px;
   padding: 20px;
 }
 
-/* line 9, sass/_header.scss */
+/* line 10, sass/_header.scss */
 header#blog-header a {
   color: #f7f7f7;
   text-decoration: none;
 }
 
-/* line 14, sass/_header.scss */
+/* line 15, sass/_header.scss */
 h1#blog-title {
   margin: 0;
   padding: 0;
