@@ -609,7 +609,7 @@ body.page article.post, body.single-post article.post {
 }
 
 /* line 5, sass/_single.scss */
-body.page article.post header.post-header small.date-author {
+body.page article.post header.post-header small.post-date {
   display: none;
 }
 
