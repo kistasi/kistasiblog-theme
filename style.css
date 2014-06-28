@@ -482,12 +482,13 @@ main#wrapper {
 /* line 14, sass/_layout.scss */
 aside#sidebar {
   width: 340px;
+  margin-left: 20px;
   float: right;
 }
 
-/* line 19, sass/_layout.scss */
+/* line 20, sass/_layout.scss */
 div#content {
-  width: 960px;
+  width: 940px;
   max-width: 100%;
   min-width: 160px;
   float: left;

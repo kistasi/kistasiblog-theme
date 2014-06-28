@@ -13,11 +13,12 @@ main#wrapper {
 
 aside#sidebar {
 	width: 340px;
+	margin-left: 20px;
 	float: right;
 }
 
 div#content {
-	width: 960px;
+	width: 940px;
 	max-width: 100%;
 	min-width: 160px;
 	float: left; 
