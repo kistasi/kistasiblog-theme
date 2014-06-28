@@ -14,6 +14,9 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
+
     <!-- JavaScript -->
     <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>-->
     <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>-->
