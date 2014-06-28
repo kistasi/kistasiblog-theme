@@ -1,0 +1,30 @@
+article.post {
+	border: 3px solid $orange;
+	margin-bottom: 20px;
+}
+
+article.post header.post-header {
+	text-align: center;
+}
+
+article.post header.post-header h3 {
+	font-size: 30px;
+}
+
+article.post header.post-header h3 a {
+	color: $orange;
+	text-decoration: none;
+}
+
+article.post div.post-content {
+	padding: 20px;
+}
+
+article.post footer.post-footer {
+	height: 30px;
+}
+
+article.post footer.post-footer span.post-meta-data {
+	padding-right: 5px;
+	float: right;
+}

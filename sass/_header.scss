@@ -1,0 +1,17 @@
+header#blog-header {
+	background: $orange;
+	text-align: center;
+	height: 70px;
+	margin: 0;
+	padding: 20px;
+}
+
+header#blog-header a {
+	color: $white;
+	text-decoration: none;
+}
+
+h1#blog-title {
+	margin: 0;
+	padding: 0;
+}

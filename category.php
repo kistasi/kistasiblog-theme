@@ -17,7 +17,7 @@
     <?php the_content(); ?>
   </div>
   <footer class="post-footer">
-    <span class="postmetadata">Posted in <?php the_category(', '); ?></span>
+    <span class="post-meta-data">Posted in <?php the_category(', '); ?></span>
   </footer>
 </article>
 

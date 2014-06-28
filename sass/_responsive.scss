@@ -1,0 +1,10 @@
+@media all and (max-width: 1300px) {
+	aside#sidebar {
+		display: none;
+	}
+
+	article.post {
+		border: none;
+		border-bottom: 3px solid #e74c3c;
+	}
+}

@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
     <!-- JavaScript -->
