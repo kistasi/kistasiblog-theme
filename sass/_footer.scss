@@ -1,7 +1,28 @@
 footer#blog-footer {
-	color: #f7f7f7;
-	background: #333333;
+	color: $white;
+	background: $dark-grey;
 	text-align: center;
 	padding: 30px;
 	clear: both;
+}
+
+footer#blog-footer div#blog-footer-links ul {
+	list-style: none;
+}
+
+footer#blog-footer div#blog-footer-links ul li {
+	display: inline;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px $white solid;
+}
+
+footer#blog-footer div#blog-footer-links ul li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+footer#blog-footer div#blog-footer-links ul li a {
+	color: $white;
 }

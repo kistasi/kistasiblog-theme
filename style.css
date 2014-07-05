@@ -591,6 +591,31 @@ footer#blog-footer {
   clear: both;
 }
 
+/* line 9, sass/_footer.scss */
+footer#blog-footer div#blog-footer-links ul {
+  list-style: none;
+}
+
+/* line 13, sass/_footer.scss */
+footer#blog-footer div#blog-footer-links ul li {
+  display: inline;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px #f7f7f7 solid;
+}
+
+/* line 20, sass/_footer.scss */
+footer#blog-footer div#blog-footer-links ul li:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 26, sass/_footer.scss */
+footer#blog-footer div#blog-footer-links ul li a {
+  color: #f7f7f7;
+}
+
 @media all and (max-width: 1300px) {
   /* line 2, sass/_responsive.scss */
   aside#sidebar {
@@ -601,6 +626,13 @@ footer#blog-footer {
   article.post {
     border: none;
     border-bottom: 3px solid #e74c3c;
+  }
+}
+@media all and (max-width: 600) {
+  /* line 13, sass/_responsive.scss */
+  footer#blog-footer div#blog-footer-links ul li {
+    padding-right: 5px;
+    margin-right: 5px;
   }
 }
 /* line 1, sass/_single.scss */
