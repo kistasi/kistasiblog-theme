@@ -628,13 +628,6 @@ footer#blog-footer div#blog-footer-links ul li a {
     border-bottom: 3px solid #e74c3c;
   }
 }
-@media all and (max-width: 600) {
-  /* line 13, sass/_responsive.scss */
-  footer#blog-footer div#blog-footer-links ul li {
-    padding-right: 5px;
-    margin-right: 5px;
-  }
-}
 /* line 1, sass/_single.scss */
 body.page article.post, body.single-post article.post {
   border: none;
