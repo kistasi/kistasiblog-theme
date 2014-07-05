@@ -550,23 +550,23 @@ article.post header.post-header h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 29, sass/_posts.scss */
+/* line 25, sass/_posts.scss */
 article.post div.post-content {
   padding: 0px 20px;
 }
 
-/* line 33, sass/_posts.scss */
+/* line 29, sass/_posts.scss */
 article.post footer.post-footer {
   height: 30px;
 }
 
-/* line 37, sass/_posts.scss */
+/* line 33, sass/_posts.scss */
 article.post footer.post-footer span.post-category {
   padding-right: 5px;
   float: right;
 }
 
-/* line 42, sass/_posts.scss */
+/* line 38, sass/_posts.scss */
 article.post footer.post-footer span.post-tags {
   padding-left: 5px;
   float: left;
