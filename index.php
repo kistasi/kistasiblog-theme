@@ -9,7 +9,7 @@
 <?php endif; ?>
   <header class="post-header">
     <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-    <small class="post-date"><?php the_time('Y. m. d') ?></small>
+    <span class="post-date"><?php the_time('Y. m. d') ?></span>
   </header>
   <div class="post-content">
     <?php the_content(); ?>

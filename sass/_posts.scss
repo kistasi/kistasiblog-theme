@@ -9,6 +9,8 @@ article.post header.post-header {
 
 article.post header.post-header h3 {
 	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 
 article.post header.post-header h3 a {
@@ -20,8 +22,12 @@ article.post header.post-header h3 a:hover {
 	text-decoration: underline;
 }
 
+article.post header.post-header span.post-date {
+
+}
+
 article.post div.post-content {
-	padding: 20px;
+	padding: 0px 20px;
 }
 
 article.post footer.post-footer {
