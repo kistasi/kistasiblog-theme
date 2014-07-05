@@ -5,7 +5,7 @@
 <?php if ( in_category('3') ): ?>
 <?php else: ?>
 
-<article id="post-<?php the_ID(); ?>" class="post">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php endif; ?>
   <header class="post-header">
     <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
