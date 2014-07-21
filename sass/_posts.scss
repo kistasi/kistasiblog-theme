@@ -29,10 +29,10 @@
 
 .wp-caption {
 	display: block;
-	background: #ddd;
+	background: $dark-grey;
 	padding: 10px;
 	margin: 20px;
-	border: 1px #000 solid;
+	border: 1px $black solid;
 }
 
 .wp-caption img {
