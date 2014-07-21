@@ -19,10 +19,10 @@
 
     <!-- JavaScript -->
     <!--[if IE]>
-      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
-      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>
+      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/respond.js"></script>
+      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/html5shiv.js"></script>
     -->
-    <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/jquery.js"></script> -->
+    <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/jquery.js"></script> -->
 
     <!-- wp_head(); -->
     <?php wp_head(); ?>
