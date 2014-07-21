@@ -492,6 +492,11 @@ html, body {
 }
 
 /* line 24, sass/_layout.scss */
+.widget-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 28, sass/_layout.scss */
 #content {
   width: 940px;
   max-width: 100%;
