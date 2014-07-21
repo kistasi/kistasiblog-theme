@@ -18,8 +18,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
     <!-- JavaScript -->
-    <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>-->
-    <!--[if IE]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>-->
+    <!--[if IE]>
+      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/respond.js"></script>
+      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/html5shiv.js"></script>
+    -->
     <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/jquery.js"></script> -->
 
     <!-- wp_head(); -->
@@ -28,7 +30,6 @@
     <!-- SEO -->
     <meta name="author" content="Tasnádi Márton (kistasi)">
     <meta name="description" content="Tasnádi Márton személyes és tech blogoldala.">
-    <meta name="keywords" content="énblog, lélek, drupal, wordpress, linux, opensuse, ubuntu, debian, fedora, windows, mac, osx, waldorf, thinkpad, tasi, kistasi, tasnádi márton, weboldal készítés, unix, unix-like, webmester, webfejlesztés, webfejlesztő">
     <meta property="og:copyright" content="kistasiblog (c) 2010-2014">
     <meta property="og:title" content="kistasiblog">
     <meta property="og:type" content="blog">
