@@ -532,41 +532,41 @@ html, body {
   text-align: center;
 }
 
-/* line 9, sass/_posts.scss */
-.post-header h3 {
+/* line 10, sass/_posts.scss */
+.post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-/* line 15, sass/_posts.scss */
-.post-header h3 a {
+/* line 16, sass/_posts.scss */
+.post-title a {
   color: #e74c3c;
   text-decoration: none;
 }
 
-/* line 20, sass/_posts.scss */
-.post-header h3 a:hover {
+/* line 21, sass/_posts.scss */
+.post-title a:hover {
   text-decoration: underline;
 }
 
-/* line 24, sass/_posts.scss */
+/* line 25, sass/_posts.scss */
 .post-content {
   padding: 0px 20px;
 }
 
-/* line 28, sass/_posts.scss */
+/* line 29, sass/_posts.scss */
 .post-footer {
   height: 30px;
 }
 
-/* line 32, sass/_posts.scss */
+/* line 33, sass/_posts.scss */
 .post-category {
   padding-right: 5px;
   float: right;
 }
 
-/* line 37, sass/_posts.scss */
+/* line 38, sass/_posts.scss */
 .post-tags {
   padding-left: 5px;
   float: left;

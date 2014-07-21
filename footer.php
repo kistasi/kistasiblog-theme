@@ -9,7 +9,7 @@
           <li><a target="_blank" href="http://github.com/kistasi">GitHub</a></li>
         </ul>
       </div>
-      <span id="blog-footer-copyright">kistasiblog (c) 2010-2014</span>
+      <span id="blog-footer-copyright">kistasiblog &copy; 2010-2014</span>
     </footer>
     <script type="text/javascript">
     	var _gaq = _gaq || [];

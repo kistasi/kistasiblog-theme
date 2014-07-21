@@ -8,7 +8,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php endif; ?>
   <header class="post-header">
-    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+    <h3 class="post-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
     <span class="post-date"><?php the_time('Y. m. d') ?></span>
   </header>
   <div class="post-content">
