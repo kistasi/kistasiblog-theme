@@ -27,6 +27,23 @@
 	padding: 0px 20px;
 }
 
+.wp-caption {
+	display: block;
+	background: #edece8;
+	padding: 10px;
+	border: 1px #000 solid;
+}
+
+.wp-caption img {
+	width: 100%;
+}
+
+.wp-caption-text {
+	display: block;
+	background: #ddd;
+	text-align: center;
+}
+
 .post-footer {
 	height: 30px;
 }
