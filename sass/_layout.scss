@@ -4,24 +4,24 @@ html, body {
 	background: $white;
 }
 
-main#wrapper {
+#wrapper {
 	width: 1300px;
 	max-width: 100%;
 	min-width: 180px;
 	margin: 0 auto;
 }
 
-aside#sidebar {
+#sidebar {
 	width: 340px;
 	margin-left: 20px;
 	float: right;
 }
 
-aside#sidebar label.screen-reader-text {
+#sidebar .screen-reader-text {
 	display: none;
 }
 
-div#content {
+#content {
 	width: 940px;
 	max-width: 100%;
 	min-width: 160px;

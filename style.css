@@ -472,7 +472,7 @@ html, body {
 }
 
 /* line 7, sass/_layout.scss */
-main#wrapper {
+#wrapper {
   width: 1300px;
   max-width: 100%;
   min-width: 180px;
@@ -480,19 +480,19 @@ main#wrapper {
 }
 
 /* line 14, sass/_layout.scss */
-aside#sidebar {
+#sidebar {
   width: 340px;
   margin-left: 20px;
   float: right;
 }
 
 /* line 20, sass/_layout.scss */
-aside#sidebar label.screen-reader-text {
+#sidebar .screen-reader-text {
   display: none;
 }
 
 /* line 24, sass/_layout.scss */
-div#content {
+#content {
   width: 940px;
   max-width: 100%;
   min-width: 160px;
@@ -500,7 +500,7 @@ div#content {
 }
 
 /* line 1, sass/_header.scss */
-header#blog-header {
+#blog-header {
   background: #e74c3c;
   text-align: center;
   height: 70px;
@@ -510,13 +510,13 @@ header#blog-header {
 }
 
 /* line 10, sass/_header.scss */
-header#blog-header a {
+#blog-header a {
   color: #f7f7f7;
   text-decoration: none;
 }
 
 /* line 15, sass/_header.scss */
-h1#blog-title {
+#blog-title {
   margin: 0;
   padding: 0;
 }
@@ -573,19 +573,19 @@ article.post footer.post-footer span.post-tags {
 }
 
 /* line 1, sass/_pager.scss */
-span#pager-older {
+#pager-older {
   margin-bottom: 30px;
   float: left;
 }
 
 /* line 6, sass/_pager.scss */
-span#pager-newer {
+#pager-newer {
   margin-bottom: 30px;
   float: right;
 }
 
 /* line 1, sass/_footer.scss */
-footer#blog-footer {
+#blog-footer {
   color: #f7f7f7;
   background: #333333;
   text-align: center;
@@ -594,12 +594,12 @@ footer#blog-footer {
 }
 
 /* line 9, sass/_footer.scss */
-footer#blog-footer div#blog-footer-links ul {
+#blog-footer-links ul {
   list-style: none;
 }
 
 /* line 13, sass/_footer.scss */
-footer#blog-footer div#blog-footer-links ul li {
+#blog-footer-links ul li {
   display: inline;
   padding-right: 10px;
   margin-right: 10px;
@@ -607,25 +607,25 @@ footer#blog-footer div#blog-footer-links ul li {
 }
 
 /* line 20, sass/_footer.scss */
-footer#blog-footer div#blog-footer-links ul li:last-child {
+#blog-footer-links ul li:last-child {
   margin: 0;
   padding: 0;
   border: none;
 }
 
 /* line 26, sass/_footer.scss */
-footer#blog-footer div#blog-footer-links ul li a {
+#blog-footer-links ul li a {
   color: #f7f7f7;
 }
 
 @media all and (max-width: 1300px) {
   /* line 2, sass/_responsive.scss */
-  aside#sidebar {
+  #sidebar {
     display: none;
   }
 
   /* line 6, sass/_responsive.scss */
-  article.post {
+  .post {
     border: none;
     border-bottom: 3px solid #e74c3c;
   }

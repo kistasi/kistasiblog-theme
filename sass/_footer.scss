@@ -1,4 +1,4 @@
-footer#blog-footer {
+#blog-footer {
 	color: $white;
 	background: $dark-grey;
 	text-align: center;
@@ -6,23 +6,23 @@ footer#blog-footer {
 	clear: both;
 }
 
-footer#blog-footer div#blog-footer-links ul {
+#blog-footer-links ul {
 	list-style: none;
 }
 
-footer#blog-footer div#blog-footer-links ul li {
+#blog-footer-links ul li {
 	display: inline;
 	padding-right: 10px;
 	margin-right: 10px;
 	border-right: 1px $white solid;
 }
 
-footer#blog-footer div#blog-footer-links ul li:last-child {
+#blog-footer-links ul li:last-child {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
 
-footer#blog-footer div#blog-footer-links ul li a {
+#blog-footer-links ul li a {
 	color: $white;
 }
