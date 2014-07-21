@@ -24,6 +24,8 @@
     -->
     <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/jquery.js"></script> -->
 
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/analytics.js"></script>
+
     <!-- wp_head(); -->
     <?php wp_head(); ?>
 
