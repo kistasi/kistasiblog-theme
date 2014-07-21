@@ -494,9 +494,10 @@ html, body {
 /* line 24, sass/_layout.scss */
 .widget-title {
   font-family: 'Oswald', sans-serif;
+  color: #533232;
 }
 
-/* line 28, sass/_layout.scss */
+/* line 29, sass/_layout.scss */
 #content {
   width: 940px;
   max-width: 100%;
@@ -525,6 +526,12 @@ html, body {
 #blog-title {
   margin: 0;
   padding: 0;
+}
+
+/* line 21, sass/_header.scss */
+#blog-tagline {
+  color: #533232;
+  font-weight: bold;
 }
 
 /* line 1, sass/_posts.scss */
