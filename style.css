@@ -565,7 +565,7 @@ html, body {
 /* line 30, sass/_posts.scss */
 .wp-caption {
   display: block;
-  background: #333333;
+  background: #dddddd;
   padding: 10px;
   margin: 20px;
   border: 1px #252525 solid;
