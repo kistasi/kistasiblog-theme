@@ -532,6 +532,8 @@ html, body {
 #blog-tagline {
   color: #533232;
   font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 /* line 1, sass/_posts.scss */
