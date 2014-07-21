@@ -8,14 +8,14 @@
 	padding: 20px;
 }
 
-#blog-header a {
-	color: $white;
-	text-decoration: none;
-}
-
 #blog-title {
 	margin: 0;
 	padding: 0;
+}
+
+#blog-title a {
+	color: $white;
+	text-decoration: none;
 }
 
 #blog-tagline {
