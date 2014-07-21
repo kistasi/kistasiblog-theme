@@ -522,52 +522,52 @@ html, body {
 }
 
 /* line 1, sass/_posts.scss */
-article.post {
+.post {
   border: 3px solid #e74c3c;
   margin-bottom: 20px;
 }
 
 /* line 6, sass/_posts.scss */
-article.post header.post-header {
+.post-header {
   text-align: center;
 }
 
-/* line 10, sass/_posts.scss */
-article.post header.post-header h3 {
+/* line 9, sass/_posts.scss */
+.post-header h3 {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-/* line 16, sass/_posts.scss */
-article.post header.post-header h3 a {
+/* line 15, sass/_posts.scss */
+.post-header h3 a {
   color: #e74c3c;
   text-decoration: none;
 }
 
-/* line 21, sass/_posts.scss */
-article.post header.post-header h3 a:hover {
+/* line 20, sass/_posts.scss */
+.post-header h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 25, sass/_posts.scss */
-article.post div.post-content {
+/* line 24, sass/_posts.scss */
+.post-content {
   padding: 0px 20px;
 }
 
-/* line 29, sass/_posts.scss */
-article.post footer.post-footer {
+/* line 28, sass/_posts.scss */
+.post-footer {
   height: 30px;
 }
 
-/* line 33, sass/_posts.scss */
-article.post footer.post-footer span.post-category {
+/* line 32, sass/_posts.scss */
+.post-category {
   padding-right: 5px;
   float: right;
 }
 
-/* line 38, sass/_posts.scss */
-article.post footer.post-footer span.post-tags {
+/* line 37, sass/_posts.scss */
+.post-tags {
   padding-left: 5px;
   float: left;
 }
