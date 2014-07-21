@@ -563,17 +563,37 @@ html, body {
 }
 
 /* line 30, sass/_posts.scss */
+.wp-caption {
+  display: block;
+  background: #edece8;
+  padding: 10px;
+  border: 1px #000 solid;
+}
+
+/* line 37, sass/_posts.scss */
+.wp-caption img {
+  width: 100%;
+}
+
+/* line 41, sass/_posts.scss */
+.wp-caption-text {
+  display: block;
+  background: #ddd;
+  text-align: center;
+}
+
+/* line 47, sass/_posts.scss */
 .post-footer {
   height: 30px;
 }
 
-/* line 34, sass/_posts.scss */
+/* line 51, sass/_posts.scss */
 .post-category {
   padding-right: 5px;
   float: right;
 }
 
-/* line 39, sass/_posts.scss */
+/* line 56, sass/_posts.scss */
 .post-tags {
   padding-left: 5px;
   float: left;
