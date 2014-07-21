@@ -9,4 +9,4 @@ This is the custom theme for my blog.
 * External libraries: [Respond.js](https://github.com/scottjehl/Respond), [html5shiv](https://code.google.com/p/html5shiv/) and [jQuery](http://jquery.com/) (disabled)
 * Theme language: Hungarian
 
-URL:<http://team4world.hu/>
+URL: <http://team4world.hu/>
