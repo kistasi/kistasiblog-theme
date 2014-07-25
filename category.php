@@ -11,7 +11,7 @@
 <?php endif; ?>
   <header class="post-header">
     <h3 class="post-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-    <span class="post-date"><?php the_time('Y. m. d') ?></span>
+    <span class="post-date"><?php the_time('Y. m. d'); ?></span>
   </header>
   <div class="post-content">
     <?php the_content(); ?>
