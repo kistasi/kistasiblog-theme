@@ -517,15 +517,15 @@ html, body {
 }
 
 /* line 11, sass/_header.scss */
-#blog-header a {
-  color: #f7f7f7;
-  text-decoration: none;
-}
-
-/* line 16, sass/_header.scss */
 #blog-title {
   margin: 0;
   padding: 0;
+}
+
+/* line 16, sass/_header.scss */
+#blog-title a {
+  color: #f7f7f7;
+  text-decoration: none;
 }
 
 /* line 21, sass/_header.scss */
@@ -632,12 +632,12 @@ html, body {
 }
 
 /* line 10, sass/_footer.scss */
-#blog-footer-links ul {
+#social-links ul {
   list-style: none;
 }
 
 /* line 14, sass/_footer.scss */
-#blog-footer-links ul li {
+#social-links ul li {
   display: inline;
   padding-right: 10px;
   margin-right: 10px;
@@ -645,14 +645,14 @@ html, body {
 }
 
 /* line 21, sass/_footer.scss */
-#blog-footer-links ul li:last-child {
+#social-links ul li:last-child {
   margin: 0;
   padding: 0;
   border: none;
 }
 
 /* line 27, sass/_footer.scss */
-#blog-footer-links ul li a {
+#social-links ul li a {
   color: #f7f7f7;
 }
 
@@ -667,18 +667,4 @@ html, body {
     border: none;
     border-bottom: 3px solid #e74c3c;
   }
-}
-/* line 1, sass/_single.scss */
-body.page article.post, body.single-post article.post {
-  border: none;
-}
-
-/* line 5, sass/_single.scss */
-body.page article.post header.post-header small.post-date {
-  display: none;
-}
-
-/* line 9, sass/_single.scss */
-body.page article.post footer.post-footer span.post-category {
-  display: none;
 }

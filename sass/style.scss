@@ -11,8 +11,8 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-@import "base";
 @import "normalize";
+@import "base";
 @import "links";
 @import "layout";
 @import "header";
@@ -20,4 +20,3 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "pager";
 @import "footer";
 @import "responsive";
-@import "single";
