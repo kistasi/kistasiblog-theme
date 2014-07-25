@@ -621,6 +621,11 @@ html, body {
   float: right;
 }
 
+/* line 1, sass/_page.scss */
+.page-title {
+  font-size: 25px;
+}
+
 /* line 1, sass/_footer.scss */
 #blog-footer {
   font-family: 'Oswald', sans-serif;
