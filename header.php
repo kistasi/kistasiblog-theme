@@ -44,4 +44,14 @@
       <h1 id="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       <span id="blog-tagline"><?php bloginfo('description'); ?></span>
     </header>
+    <nav id="navigation">
+        <ul>
+            <li><a href="<?php bloginfo('url'); ?>">Blog</a></li>
+            <li><a href="<?php bloginfo('url'); ?>">Tech</a></li>
+            <li><a href="<?php bloginfo('url'); ?>">Fotó</a></li>
+            <li><a href="<?php bloginfo('url'); ?>">Archívum</a></li>
+            <li><a href="<?php bloginfo('url'); ?>">Rólam</a></li>
+            <li><a href="<?php bloginfo('url'); ?>">Kapcsolat</a></li>
+        </ul>
+    </nav>
     <main id="wrapper">

@@ -512,28 +512,56 @@ html, body {
   text-align: center;
   height: 70px;
   margin: 0;
-  margin-bottom: 20px;
   padding: 20px;
 }
 
-/* line 11, sass/_header.scss */
+/* line 10, sass/_header.scss */
 #blog-title {
   margin: 0;
   padding: 0;
 }
 
-/* line 16, sass/_header.scss */
+/* line 15, sass/_header.scss */
 #blog-title a {
   color: #f7f7f7;
   text-decoration: none;
 }
 
-/* line 21, sass/_header.scss */
+/* line 20, sass/_header.scss */
 #blog-tagline {
   color: #533232;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+/* line 1, sass/_navigation.scss */
+#navigation {
+  background: yellow;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 7, sass/_navigation.scss */
+#navigation ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 12, sass/_navigation.scss */
+#navigation ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+/* line 21, sass/_navigation.scss */
+#navigation ul li a:hover {
+  text-decoration: none;
+}
+
+/* line 25, sass/_navigation.scss */
+#navigation ul li:hover {
+  background: red;
 }
 
 /* line 1, sass/_posts.scss */
@@ -595,15 +623,17 @@ html, body {
 /* line 48, sass/_posts.scss */
 .post-footer {
   height: 30px;
+  background: #dddddd;
+  padding: 20px;
 }
 
-/* line 52, sass/_posts.scss */
+/* line 54, sass/_posts.scss */
 .post-category {
   padding-right: 5px;
   float: right;
 }
 
-/* line 57, sass/_posts.scss */
+/* line 59, sass/_posts.scss */
 .post-tags {
   padding-left: 5px;
   float: left;
