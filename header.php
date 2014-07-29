@@ -7,29 +7,15 @@
 
     <title><?php if (is_front_page()) { bloginfo('name'); } else { wp_title(''); } ?></title>
 
-    <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
-
-    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
-
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
-    <!-- JavaScript -->
-    <!--[if IE]>
-      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/respond.js"></script>
-      <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/html5shiv.js"></script>
-    -->
-    <!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/jquery.js"></script> -->
-
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/respond.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/html5shiv.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/analytics.js"></script>
 
-    <!-- wp_head(); -->
-    <?php wp_head(); ?>
-
-    <!-- SEO -->
     <meta name="author" content="Tasnádi Márton (kistasi)">
     <meta name="description" content="Tasnádi Márton személyes és tech blogoldala.">
     <meta property="og:copyright" content="kistasiblog (c) 2010-2014">
@@ -38,6 +24,8 @@
     <meta property="og:url" content="http://team4world.hu/">
     <meta property="og:email" content="marton.tasnadi@gmail.com">
     <meta property="og:locale" content="hu-HU">
+
+    <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
     <header id="blog-header">

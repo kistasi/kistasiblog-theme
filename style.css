@@ -537,7 +537,7 @@ html, body {
 
 /* line 1, sass/_navigation.scss */
 #navigation {
-  background: yellow;
+  background: #1abc9c;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -554,14 +554,20 @@ html, body {
   padding: 15px;
 }
 
-/* line 21, sass/_navigation.scss */
+/* line 17, sass/_navigation.scss */
+#navigation ul li a {
+  color: #fff;
+  display: block;
+}
+
+/* line 22, sass/_navigation.scss */
 #navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 25, sass/_navigation.scss */
+/* line 26, sass/_navigation.scss */
 #navigation ul li:hover {
-  background: red;
+  background: #16a085;
 }
 
 /* line 1, sass/_posts.scss */
