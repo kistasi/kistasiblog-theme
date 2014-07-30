@@ -1,5 +1,5 @@
 .post {
-	border: 3px solid $orange;
+	border-bottom: 3px solid $orange;
 	margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@
 
 .post-footer {
 	height: 30px;
-	background: $light-grey;
+	// background: $light-grey;
 	padding: 20px;
 }
 
