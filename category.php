@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
 
 <h2 class="category-title"><?php printf( __( 'Kategória: %s', 'kistasiblog-theme' ), single_cat_title( '', false ) ); ?></h2>
 
@@ -27,4 +26,5 @@
 <?php endif; ?>
 <span id="pager-older"><?php next_posts_link( 'Régebbi bejegyzések' ); ?></span>
 <span id="pager-newer"><?php previous_posts_link( 'Újabb bejegyzések' ); ?></span>
+
 <?php get_footer(); ?>

@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php if ( in_category('3') ): ?>
@@ -25,4 +24,5 @@
 <?php endif; ?>
 <span id="pager-older"><?php next_posts_link( 'Régebbi bejegyzések' ); ?></span>
 <span id="pager-newer"><?php previous_posts_link( 'Újabb bejegyzések' ); ?></span>
+
 <?php get_footer(); ?>
