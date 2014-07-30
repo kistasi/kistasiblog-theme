@@ -1,4 +1,3 @@
-      </div>
     </main>
     <footer id="blog-footer">
       <div id="social-links">
