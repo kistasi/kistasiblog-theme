@@ -16,13 +16,11 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/libs/html5shiv.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/analytics.js"></script>
 
-    <meta name="author" content="Tasnádi Márton (kistasi)">
-    <meta name="description" content="Tasnádi Márton személyes és tech blogoldala.">
-    <meta property="og:copyright" content="kistasiblog (c) 2010-2014">
+    <meta name="author" content="Tasnádi Márton (kistasi) 2010-2014">
     <meta property="og:title" content="kistasiblog">
-    <meta property="og:type" content="blog">
+    <meta property="og:description" content="Tasnádi Márton személyes és tech blogoldala.">
     <meta property="og:url" content="http://team4world.hu/">
-    <meta property="og:email" content="marton.tasnadi@gmail.com">
+    <meta property="og:type" content="blog">
     <meta property="og:locale" content="hu-HU">
 
     <?php wp_head(); ?>
