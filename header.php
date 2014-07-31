@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title><?php if (is_front_page()) { bloginfo('name'); } else { wp_title(''); } ?></title>
 
@@ -33,11 +33,11 @@
     <nav id="navigation">
         <ul>
             <li><a href="<?php bloginfo('url'); ?>">Blog</a></li>
-            <li><a href="<?php bloginfo('url'); ?>">Tech</a></li>
-            <li><a href="<?php bloginfo('url'); ?>">Fotó</a></li>
-            <li><a href="<?php bloginfo('url'); ?>">Archívum</a></li>
-            <li><a href="<?php bloginfo('url'); ?>">Rólam</a></li>
-            <li><a href="<?php bloginfo('url'); ?>">Kapcsolat</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?cat=61">Tech</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?cat=70">Fotó</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page-id=21">Archívum</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page-id=5">Rólam</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page-id=456">Kapcsolat</a></li>
         </ul>
     </nav>
     <main id="wrapper">

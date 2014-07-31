@@ -1,25 +1,29 @@
 #blog-header {
-	font-family: 'Oswald', sans-serif;
-	background: $orange;
+	font-family: $oswald;
+	background: $dark-red;
+	color: $white;
 	text-align: center;
-	height: 70px;
+	height: 90px;
 	margin: 0;
 	padding: 20px;
 }
 
 #blog-title {
-	margin: 0;
+	margin: 5px;
 	padding: 0;
 }
 
 #blog-title a {
-	color: $white;
 	text-decoration: none;
+	color: $white;
 }
 
 #blog-tagline {
-	color: $brown;
 	font-weight: bold;
 	font-size: 20px;
 	letter-spacing: 1px;
+	background: $light-red;
+	margin: 20px;
+	padding: 5px;
+	border-radius: 7px;
 }

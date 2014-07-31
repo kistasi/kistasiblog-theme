@@ -1,5 +1,5 @@
 #blog-footer {
-	font-family: 'Oswald', sans-serif;
+	font-family: $oswald;
 	color: $white;
 	background: $dark-grey;
 	text-align: center;
@@ -12,7 +12,7 @@
 }
 
 #social-links ul li {
-	display: inline;
+	display: inline-block;
 	padding-right: 10px;
 	margin-right: 10px;
 	border-right: 1px $white solid;

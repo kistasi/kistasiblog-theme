@@ -5,30 +5,8 @@ html, body {
 }
 
 #wrapper {
-	width: 1300px;
+	width: 960px;
 	max-width: 100%;
 	min-width: 180px;
 	margin: 0 auto;
-}
-
-#sidebar {
-	width: 340px;
-	margin-left: 20px;
-	float: right;
-}
-
-#sidebar .screen-reader-text {
-	display: none;
-}
-
-.widget-title {
-	font-family: 'Oswald', sans-serif;
-	color: $brown;
-}
-
-#content {
-	width: 940px;
-	max-width: 100%;
-	min-width: 160px;
-	float: left; 
 }

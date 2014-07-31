@@ -473,66 +473,44 @@ html, body {
 
 /* line 7, sass/_layout.scss */
 #wrapper {
-  width: 1300px;
+  width: 960px;
   max-width: 100%;
   min-width: 180px;
   margin: 0 auto;
 }
 
-/* line 14, sass/_layout.scss */
-#sidebar {
-  width: 340px;
-  margin-left: 20px;
-  float: right;
-}
-
-/* line 20, sass/_layout.scss */
-#sidebar .screen-reader-text {
-  display: none;
-}
-
-/* line 24, sass/_layout.scss */
-.widget-title {
-  font-family: 'Oswald', sans-serif;
-  color: #533232;
-}
-
-/* line 29, sass/_layout.scss */
-#content {
-  width: 940px;
-  max-width: 100%;
-  min-width: 160px;
-  float: left;
-}
-
 /* line 1, sass/_header.scss */
 #blog-header {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, "sans-serif";
   background: #a53a3a;
+  color: white;
   text-align: center;
-  height: 70px;
+  height: 90px;
   margin: 0;
   padding: 20px;
 }
 
-/* line 10, sass/_header.scss */
+/* line 11, sass/_header.scss */
 #blog-title {
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 
-/* line 15, sass/_header.scss */
+/* line 16, sass/_header.scss */
 #blog-title a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
-/* line 20, sass/_header.scss */
+/* line 21, sass/_header.scss */
 #blog-tagline {
-  color: #533232;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1px;
+  background: #9a1d1d;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
 }
 
 /* line 1, sass/_navigation.scss */
@@ -554,25 +532,24 @@ html, body {
   padding: 15px;
 }
 
-/* line 17, sass/_navigation.scss */
+/* line 18, sass/_navigation.scss */
 #navigation ul li a {
-  color: #fff;
-  display: block;
+  color: white;
+  padding: 15px;
 }
 
-/* line 22, sass/_navigation.scss */
+/* line 23, sass/_navigation.scss */
 #navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 26, sass/_navigation.scss */
+/* line 27, sass/_navigation.scss */
 #navigation ul li:hover {
   background: #a53a3a;
 }
 
 /* line 1, sass/_posts.scss */
 .post {
-  border-bottom: 3px solid #a53a3a;
   margin-bottom: 20px;
 }
 
@@ -583,7 +560,7 @@ html, body {
 
 /* line 10, sass/_posts.scss */
 .post-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, "sans-serif";
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -606,6 +583,24 @@ html, body {
 }
 
 /* line 30, sass/_posts.scss */
+.post-footer {
+  height: 30px;
+  padding: 20px;
+}
+
+/* line 35, sass/_posts.scss */
+.post-category {
+  padding-right: 5px;
+  float: right;
+}
+
+/* line 40, sass/_posts.scss */
+.post-tags {
+  padding-left: 5px;
+  float: left;
+}
+
+/* line 1, sass/_images.scss */
 .wp-caption {
   display: block;
   background: #dddddd;
@@ -614,34 +609,16 @@ html, body {
   border: 1px #252525 solid;
 }
 
-/* line 38, sass/_posts.scss */
+/* line 9, sass/_images.scss */
 .wp-caption img {
   display: block;
   max-width: 100% !important;
   height: auto;
 }
 
-/* line 44, sass/_posts.scss */
+/* line 15, sass/_images.scss */
 .wp-caption-text {
   text-align: center;
-}
-
-/* line 48, sass/_posts.scss */
-.post-footer {
-  height: 30px;
-  padding: 20px;
-}
-
-/* line 54, sass/_posts.scss */
-.post-category {
-  padding-right: 5px;
-  float: right;
-}
-
-/* line 59, sass/_posts.scss */
-.post-tags {
-  padding-left: 5px;
-  float: left;
 }
 
 /* line 1, sass/_pager.scss */
@@ -663,7 +640,7 @@ html, body {
 
 /* line 1, sass/_footer.scss */
 #blog-footer {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, "sans-serif";
   color: white;
   background: #333333;
   text-align: center;
@@ -678,7 +655,7 @@ html, body {
 
 /* line 14, sass/_footer.scss */
 #social-links ul li {
-  display: inline;
+  display: inline-block;
   padding-right: 10px;
   margin-right: 10px;
   border-right: 1px white solid;
@@ -694,17 +671,4 @@ html, body {
 /* line 27, sass/_footer.scss */
 #social-links ul li a {
   color: white;
-}
-
-@media all and (max-width: 1300px) {
-  /* line 2, sass/_responsive.scss */
-  #sidebar {
-    display: none;
-  }
-
-  /* line 6, sass/_responsive.scss */
-  .post {
-    border: none;
-    border-bottom: 3px solid #e74c3c;
-  }
 }

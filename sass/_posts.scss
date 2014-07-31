@@ -1,5 +1,5 @@
 .post {
-	border-bottom: 3px solid $orange;
+	// border-bottom: 3px solid $dark-red;
 	margin-bottom: 20px;
 }
 
@@ -8,14 +8,14 @@
 }
 
 .post-title {
-	font-family: 'Oswald', sans-serif;
+	font-family: $oswald;
 	font-size: 30px;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
 
 .post-title a {
-	color: $orange;
+	color: $dark-red;
 	text-decoration: none;
 }
 
@@ -27,27 +27,8 @@
 	padding: 0px 20px;
 }
 
-.wp-caption {
-	display: block;
-	background: $light-grey;
-	padding: 10px;
-	margin: 20px;
-	border: 1px $black solid;
-}
-
-.wp-caption img {
-	display: block;
-	max-width: 100% !important;
-	height: auto;
-}
-
-.wp-caption-text {
-	text-align: center;
-}
-
 .post-footer {
 	height: 30px;
-	// background: $light-grey;
 	padding: 20px;
 }
 

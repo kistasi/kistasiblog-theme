@@ -1,0 +1,17 @@
+.wp-caption {
+	display: block;
+	background: $light-grey;
+	padding: 10px;
+	margin: 20px;
+	border: 1px $black solid;
+}
+
+.wp-caption img {
+	display: block;
+	max-width: 100% !important;
+	height: auto;
+}
+
+.wp-caption-text {
+	text-align: center;
+}

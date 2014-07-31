@@ -1,5 +1,5 @@
 #navigation {
-	background: #9a1d1d;
+	background: $light-red;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -12,11 +12,12 @@
 #navigation ul li {
 	display: inline-block;
 	padding: 15px;
+	// background: red;
 }
 
 #navigation ul li a {
-	color: #fff;
-	display: block;
+	color: $white;
+	padding: 15px;
 }
 
 #navigation ul li a:hover {
@@ -24,6 +25,6 @@
 }
 
 #navigation ul li:hover {
-	background: $orange;
+	background: $dark-red;
 
 }
