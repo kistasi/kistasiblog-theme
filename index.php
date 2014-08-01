@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php if ( in_category('3') ): ?>
-<?php else: ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<?php endif; ?>
   <header class="post-header">
     <h3 class="post-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
     <span class="post-date"><?php the_time('Y. m. d') ?></span>

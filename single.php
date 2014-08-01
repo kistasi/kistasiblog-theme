@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="post-header">
 		<h3 class="post-title"><?php the_title(); ?></h3>
@@ -13,5 +15,9 @@
     	<span class="post-tags"><?php the_tags(); ?></span>
 	</footer>
 </article>
+
+<?php endwhile; else: ?>
+  <p>Bocsi, egy bejegyzés sem használja ezt a cimkét.</p>
+<?php endif; ?>
 
 <?php get_footer(); ?>
