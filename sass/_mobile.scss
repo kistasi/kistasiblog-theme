@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+	#nav-btn {
+		display: block;
+		cursor: pointer;
+		font-size: 25px;
+		color: $white;
+		padding: 10px;
+	}
+
+	#navigation ul {
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#navigation ul li {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

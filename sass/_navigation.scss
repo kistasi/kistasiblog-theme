@@ -1,3 +1,7 @@
+#nav-btn {
+	display: none;
+}
+
 #navigation {
 	background: $light-red;
 	text-align: center;
@@ -12,11 +16,12 @@
 #navigation ul li {
 	display: inline-block;
 	padding: 15px;
-	// background: red;
 }
 
 #navigation ul li a {
+	// display: block;
 	color: $white;
+	width: 100%;
 	padding: 15px;
 }
 

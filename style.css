@@ -514,36 +514,42 @@ html, body {
 }
 
 /* line 1, sass/_navigation.scss */
+#nav-btn {
+  display: none;
+}
+
+/* line 5, sass/_navigation.scss */
 #navigation {
   background: #9a1d1d;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 7, sass/_navigation.scss */
+/* line 11, sass/_navigation.scss */
 #navigation ul {
   list-style: none;
   margin: 0;
 }
 
-/* line 12, sass/_navigation.scss */
+/* line 16, sass/_navigation.scss */
 #navigation ul li {
   display: inline-block;
   padding: 15px;
 }
 
-/* line 18, sass/_navigation.scss */
+/* line 21, sass/_navigation.scss */
 #navigation ul li a {
   color: white;
+  width: 100%;
   padding: 15px;
 }
 
-/* line 23, sass/_navigation.scss */
+/* line 28, sass/_navigation.scss */
 #navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 27, sass/_navigation.scss */
+/* line 32, sass/_navigation.scss */
 #navigation ul li:hover {
   background: #a53a3a;
 }
@@ -671,4 +677,33 @@ html, body {
 /* line 27, sass/_footer.scss */
 #social-links ul li a {
   color: white;
+}
+
+@media (max-width: 600px) {
+  /* line 2, sass/_mobile.scss */
+  #nav-btn {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+  }
+
+  /* line 10, sass/_mobile.scss */
+  #navigation ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 16, sass/_mobile.scss */
+  #navigation ul li {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

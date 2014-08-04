@@ -2,7 +2,7 @@
 <html lang="hu-HU">
   <head>
     <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge">-->
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title><?php if (is_front_page()) { bloginfo('name'); } else { wp_title(''); } ?></title>
@@ -23,14 +23,23 @@
     <meta property="og:type" content="blog">
     <meta property="og:locale" content="hu-HU">
 
+    <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            $('#header').click(function(){
+                $(this).css('background', 'blue');
+            });
+        });
+    </script>
     <header id="blog-header">
       <h1 id="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       <span id="blog-tagline"><?php bloginfo('description'); ?></span>
     </header>
     <nav id="navigation">
+        <span id="nav-btn">Menu</span>
         <ul>
             <li><a href="<?php bloginfo('url'); ?>">Blog</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?cat=61">Tech</a></li>
