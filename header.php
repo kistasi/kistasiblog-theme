@@ -22,31 +22,20 @@
     <meta property="og:url" content="http://team4world.hu/">
     <meta property="og:type" content="blog">
     <meta property="og:locale" content="hu-HU">
-
-    <?php wp_enqueue_script("jquery"); ?>
-    <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <script type="text/javascript">
-        jQuery(document).ready(function(){
-            $('#header').click(function(){
-                $(this).css('background', 'blue');
-            });
-        });
-    </script>
     <header id="blog-header">
       <h1 id="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       <span id="blog-tagline"><?php bloginfo('description'); ?></span>
     </header>
     <nav id="navigation">
-        <span id="nav-btn">Menu</span>
         <ul>
             <li><a href="<?php bloginfo('url'); ?>">Blog</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?cat=61">Tech</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?cat=70">Fotó</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/?page-id=21">Archívum</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/?page-id=5">Rólam</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/?page-id=456">Kapcsolat</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page_id=21">Archívum</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page_id=5">Rólam</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?page_id=456">Kapcsolat</a></li>
         </ul>
     </nav>
     <main id="wrapper">

@@ -535,21 +535,22 @@ html, body {
 #navigation ul li {
   display: inline-block;
   padding: 15px;
+  margin: 0;
 }
 
-/* line 21, sass/_navigation.scss */
+/* line 22, sass/_navigation.scss */
 #navigation ul li a {
   color: white;
   width: 100%;
   padding: 15px;
 }
 
-/* line 28, sass/_navigation.scss */
+/* line 29, sass/_navigation.scss */
 #navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 32, sass/_navigation.scss */
+/* line 33, sass/_navigation.scss */
 #navigation ul li:hover {
   background: #a53a3a;
 }
