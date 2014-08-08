@@ -17,7 +17,8 @@
 </article>
 
 <?php endwhile; else: ?>
-  <p>Bocsi, egy bejegyzés sem használja ezt a cimkét.</p>
+	<h3>404 - A kért oldal nem található!</h3>
+ 	<p>Bocsi, de ez az oldal már nem létezik, vagy talán soha nem is létezett.</p>
 <?php endif; ?>
 
 <?php get_footer(); ?>

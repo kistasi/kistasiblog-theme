@@ -17,7 +17,8 @@
 </article>
 
 <?php endwhile; else: ?>
-  <p>Bocsi, nincs megjeleníthető bejegyzés a blogon.</p>
+  <h3>404 - A kért oldal nem található!</h3>
+  <p>Bocsi, de ez az oldal már nem létezik, vagy talán soha nem is létezett.</p>
 <?php endif; ?>
 <span id="pager-older"><?php next_posts_link( 'Régebbi bejegyzések' ); ?></span>
 <span id="pager-newer"><?php previous_posts_link( 'Újabb bejegyzések' ); ?></span>
