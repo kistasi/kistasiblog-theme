@@ -514,43 +514,38 @@ html, body {
 }
 
 /* line 1, sass/_navigation.scss */
-#nav-btn {
-  display: none;
-}
-
-/* line 5, sass/_navigation.scss */
 #navigation {
   background: #9a1d1d;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 11, sass/_navigation.scss */
+/* line 7, sass/_navigation.scss */
 #navigation ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-/* line 16, sass/_navigation.scss */
+/* line 13, sass/_navigation.scss */
 #navigation ul li {
   display: inline-block;
-  padding: 15px;
-  margin: 0;
 }
 
-/* line 22, sass/_navigation.scss */
+/* line 17, sass/_navigation.scss */
 #navigation ul li a {
+  display: block;
+  margin: -4px;
+  padding: 25px;
   color: white;
-  width: 100%;
-  padding: 15px;
 }
 
-/* line 29, sass/_navigation.scss */
+/* line 24, sass/_navigation.scss */
 #navigation ul li a:hover {
   text-decoration: none;
 }
 
-/* line 33, sass/_navigation.scss */
+/* line 28, sass/_navigation.scss */
 #navigation ul li:hover {
   background: #a53a3a;
 }
