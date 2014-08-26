@@ -32,6 +32,7 @@
         <ul>
             <li><a href="<?php bloginfo('url'); ?>">Blog</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?cat=61">Tech</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/?cat=62">Lélek</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?cat=70">Fotó</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?page_id=21">Archívum</a></li>
             <li><a href="<?php bloginfo('url'); ?>/?page_id=5">Rólam</a></li>
