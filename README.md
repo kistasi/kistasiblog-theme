@@ -1,7 +1,7 @@
 kistasiblog-theme
 =================
 
-This is the custom theme for my blog.
+This is the custom WordPress theme for my blog.
 
 ## Basic informations
 * HTML5, SASS
